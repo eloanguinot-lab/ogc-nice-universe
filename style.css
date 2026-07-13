@@ -495,13 +495,52 @@ font-size:17px;
 
 
 
-.section h2 {
+.section h2 {b
 
 
 font-size:30px;
+             
 
 
 }
 
+
+}
+
+/* GALERIE PHOTOS */
+
+.gallery {
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+
+.gallery img {
+
+width:100%;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:0.4s;
+
+border:2px solid #e30613;
+
+}
+
+
+.gallery img:hover {
+
+transform:scale(1.07);
+
+box-shadow:0 0 30px #e30613;
 
 }
